@@ -1,0 +1,21 @@
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  table {
+    margin: auto;
+    box-shadow: 0 0 10px 10px;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 40px;
+    background-color: black;
+  }
+  
+  tr:nth-child(odd) td:nth-child(odd),
+  tr:nth-child(even) td:nth-child(even) {
+    background-color: white;
+  }
